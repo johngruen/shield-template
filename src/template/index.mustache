@@ -15,7 +15,8 @@
       <div class="container">
         <div class="title-container">
           <h1 class="title">{{title}}</h1>
-          <button class="button primary">Enable {{title}}</button>
+          <a href={{& xpi}}><button class="button primary large">{{ &buttonText}}</button></a>
+          <!-- <button class="button primary">Enable {{title}}</button> -->
         </div>
         <div class="content">{{> ./../../compile/copy }}</div>
     </div>

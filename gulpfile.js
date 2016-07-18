@@ -22,7 +22,8 @@ gulp.task('compile-mustache', function () {
   return gulp.src('./src/template/index.mustache')
   .pipe(mustache({
     title: DATA.title,
-    xpi: DATA.xpi
+    xpi: DATA.xpi,
+    buttonText: DATA.buttonText
   }, { extension: '.html' }))
   .pipe(gulp.dest('./dist'))
   .pipe(livereload());

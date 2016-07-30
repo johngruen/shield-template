@@ -1,4 +1,8 @@
 module.exports = {
-  title: 'Example Title',
-  xpi: 'https://people.mozilla.org/~jhirsch/universal-search-addon/addon.xpi'
+  title: 'A Smarter Firefox',
+  xpi: 'https://addons.mozilla.org/firefox/downloads/latest/firefox-guide/',
+  buttonText: 'Start Now'
 };
+
+
+

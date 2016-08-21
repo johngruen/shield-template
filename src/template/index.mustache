@@ -1,21 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-
-<!DOCTYPE html>
-  <html xmlns="http://www.w3.org/1999/xhtml hasBrowserHandlers="true">
-    <head>
-      <meta charset="utf-8" />
-      <title>{{title}}</title>
-      <link rel="stylesheet" href="styles/main.css" type="text/css" />
-    </head>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="styles/main.css" type="text/css" />
+  </head>
   <body>
       <div class="container">
         <div class="title-container">
           <h1 class="title">{{title}}</h1>
-          <button class="button primary">Enable {{title}}</button>
+            <a href="{{& xpi}}"><button class="button primary large">{{ &buttonText}}</button></a>
         </div>
         <div class="content">{{> ./../../compile/copy }}</div>
     </div>
